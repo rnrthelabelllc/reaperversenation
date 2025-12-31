@@ -1,3 +1,23 @@
+window.onload = function() {
+    // --- Your existing folder code ---
+    
+    // --- Add buttons code safely ---
+    const btn1 = document.getElementById("btn1");
+    const btn2 = document.getElementById("btn2");
+
+    if(btn1){
+        btn1.addEventListener("click", function() {
+            alert("ReaperVerse Activated! 🔥");
+        });
+    }
+
+    if(btn2){
+        btn2.addEventListener("click", function() {
+            document.body.style.background = "#1a001a"; // Glow effect
+            alert("Glow summoned! 🌑✨");
+        });
+    }
+};
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
