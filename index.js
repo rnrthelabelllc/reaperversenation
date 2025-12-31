@@ -79,4 +79,7 @@ app.get('/music-player', (req, res) => {
 // Start server
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
-});
+});// Existing folder code stays here
+
+console.log("ReaperVerse Nation JS is live 🔥");
+
